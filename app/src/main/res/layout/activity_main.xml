@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aaronthomas.fitnessfreak.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/weightBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounder_corners"
+        android:backgroundTint="#2ca5f5">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/weight_icon" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText3"
+            android:layout_alignBottom="@+id/editText3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#2ca5f5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="30%"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFF"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#2ca5f5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Weight lifting"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText2"
+            android:backgroundTint="#2ca5f5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Do you even lift?"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounder_corners"
+            android:backgroundTint="#20123456"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingRight="5dp"
+            android:text="10 Sets"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/yogaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounder_corners"
+        android:backgroundTint="#ab7fe7">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/lotus" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText3"
+            android:layout_alignBottom="@+id/editText3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#ab7fe7"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="12%"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFF"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#ab7fe7"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Yoga"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText2"
+            android:backgroundTint="#ab7fe7"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Namaste"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounder_corners"
+            android:backgroundTint="#20123456"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingRight="5dp"
+            android:text="1 hour"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cardioBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounder_corners"
+        android:backgroundTint="#52AD56">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/heart_rate" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#52AD56"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="22%"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFF"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#52AD56"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Cardio"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editText2"
+            android:backgroundTint="#52AD56"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Run rabbit"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounder_corners"
+            android:backgroundTint="#20123456"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingRight="5dp"
+            android:text="5 miles"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+</LinearLayout>
