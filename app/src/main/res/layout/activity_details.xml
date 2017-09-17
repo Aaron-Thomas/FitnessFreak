@@ -1,9 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBG"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2ca5f5"
+    android:orientation="vertical"
     tools:context="com.example.aaronthomas.fitnessfreak.DetailsActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/exerciseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.3"
+        android:text="Weight Lifting"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/exerciseImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        app:srcCompat="@drawable/weight_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/rounder_corners"
+        android:backgroundTint="#20000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Mark Your Progress!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFF"
+            android:text="Complete set 1"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:text="Complete set 2"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:text="Complete set 3"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:text="Complete set 4"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:text="Complete set 5"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="#FFF" />
+    </LinearLayout>
+
+</LinearLayout>
